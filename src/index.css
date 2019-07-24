@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.Add-button{
+  background: #363636;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  position: fixed;
+  border-radius: 50%;
+  right: 5px;
+  bottom: 5px;
+  border: 2px solid #fff;
+  transition: .5s;
+
+}
+.Add-button>i{
+  margin: auto;
+  color:white ;
+  font-size: 48px;
+
+}
+.Add-button:hover{
+  background: #fff;
+  border: 2px solid #363636;
+
+
+}
+.Add-button:hover>i{
+
+  margin: auto;
+  color:#363636 ;
+  font-size: 30px;
+  transition: .5s;
+  cursor: pointer;
+
+}
+#signoutButton{
+  left: 5px;
+  right: unset;
+
+}
